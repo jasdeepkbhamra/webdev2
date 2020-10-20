@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+ 
+body {
+  font: 100% Raleway;
+  margin: 0em;
+  background-color: #0A0A0A;
+  color: #666;
+}
+
+h1 {
+  font-family: Oswald;
+  font-size: 5em;
+}
+
+h2, h3 {
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 2em;
+}
+
+p {
+  font-size: 5em;
+  line-height: 1.8;
+  margin-top: 0em;
+}
+
+img {
+  max-width: 100%;
+}
+
+hr {
+  border-top: 1px solid #ccc;
+  border-bottom: none;
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+
+.photo {
+  display: inline-block;
+  position: relative;
+  width: 250px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  overflow: hidden;
+}   
+.photo img {
+  width: auto;
+}
+
+
+header {
+  background-color: #999;
+  background-image: url(https://64.media.tumblr.com/42b7e560962ea8ff9b21da52cd3ba655/tumblr_ny3qsa8oKG1uvh3nvo1_500.jpg);
+  background-position: center center;
+  /*-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;*/
+  background-size: cover;
+  margin-bottom: 4em;
+  text-align: center;
+  height: 500px;
+}
+
+/*.parallax {
+  height:100% ;
+  background-image: url("https://64.media.tumblr.com/42b7e560962ea8ff9b21da52cd3ba655/tumblr_ny3qsa8oKG1uvh3nvo1_500.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+
+header h1 {
+  color: white;
+  font-size: 2em;
+  margin: 0;
+  letter-spacing: 1px;
+  opacity: 1;
+  text-shadow: 0 3px 0 rgba(0,0,0, 0.5);
+  position: relative;
+  top: 370px;
+  font-weight: 700;
+}
+
+header p {
+  color: #fff;
+  font-size: 1.1em;
+  padding-bottom: 1.3em;
+  padding-top: .5em;
+  opacity: .9;
+  position: relative;
+  top: 360px;
+}
+
+section h1 {
+  font-size: 1.8em;
+  line-height: 1em;
+  margin-bottom: .6em;
+}
+
+section ul li, section ol li {
+  font-size: 1em;
+  margin-left: -10px;
+  line-height: 1.8;
+}
+
+.center {
+  text-align: center;
+}
+
+footer {
+    background: #444;
+    padding: 2%;
+    text-align: center;
+}
+.social a {
+    padding: 20px;
+    font-size: 50px;
+    width: 30px;
+    text-align: : center;
+    border-radius: 5%;
+    color: #0A0A0A;
+}
+.social a:hover {
+    color: #F5F5F5;
+}
+
+
+@media screen and (min-width: 50em) {
+  header {
+    height: 700px;
+  }
+  
+  header h1 {
+    font-size: 3.2em;
+    top: 540px;
+  }
+  
+  header p {
+    top: 530px;
+    font-size: 1.5em;
+  }
+}
+
+.container {
+  max-width: 50em;
+  width:92%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  clear: both;
+  margin-right: -1%;
+  margin-left:  -1%;
+  
+}
+
+.row:before,
+.row:after {
+    content: " "; 
+    display: table;
+}
+
+.row:after {
+    clear: both;
+}
+
+.row {
+  *zoom: 1;
+}
+
+.grid-1,
+.grid-2,
+.grid-3,
+.grid-4,
+.grid-5,
+.grid-6 {
+  float: left;
+  width:100%;
+  padding: 0 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 40em) {
+  .grid-1 { width: 16.6666666%; }
+  .grid-2 { width: 33.3333333%; }
+  .grid-3 { width: 50%; }
+  .grid-4 { width: 66.6666666%; }
+  .grid-5 { width: 83.3333333%; }
+  .grid-6 { width: 100%; }
+
+}
+
+.education [class*="row"] {
+  border-bottom: dotted 1px #ccc;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.education h2 {
+  margin-bottom: 0;
+}
+
+.education h2, .education p {
+  text-align: center;
+}
+
+.education [class*="row"]:last-of-type {
+  border: none;
+}
+
+@media screen and (min-width: 40em) {
+  .education h2, .education p {
+    text-align: center;
+  }
+}
+
+.education {
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  margin-bottom: 0;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.social {
+  font-size: 200%;
+  padding: 0;
+}
+
+@media screen and (min-width: 40em) {
+.education {
+    width: 70%;
+}
+
+}
+
+}
+
